@@ -190,12 +190,12 @@ ratin = { git = "https://github.com/Fkernel653/ratin" }
 
 ```
 ratin/
-├── src/
-│   ├── lib.rs          # Public API
-│   ├── input.rs        # Main InputField logic
-│   ├── style.rs        # Styling and themes
-│   ├── validator.rs    # Character validation
-│   └── error.rs        # Error types
+└── src/
+    ├── lib.rs          # Public API
+    ├── input.rs        # Main InputField logic
+    ├── style.rs        # Styling and themes
+    ├── validator.rs    # Character validation
+    └── error.rs        # Error types
 ```
 
 ## 🔌 Requirements

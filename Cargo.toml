@@ -1,6 +1,6 @@
 [package]
 name = "ratin"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "Custom input field component for Ratatui TUI applications"
 license = "MIT"
