@@ -3,7 +3,7 @@
 [![Rust](https://img.shields.io/badge/rust-1.70+-blue.svg)](https://rust-lang.org)
 [![Crates.io](https://img.shields.io/crates/v/ratin.svg)](https://crates.io/crates/ratin)
 [![Docs.rs](https://img.shields.io/docsrs/ratin)](https://docs.rs/ratin)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GPLv3-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]()
 [![Rustfmt](https://img.shields.io/badge/code%20style-rustfmt-261230?logo=rust&logoColor=white)](https://github.com/rust-lang/rustfmt)
 
@@ -11,9 +11,8 @@ Modular input field component for Ratatui terminal applications with character v
 
 ## 🚀 Quick Start
 
-```toml
-[dependencies]
-ratin = "0.1.0"
+```bash
+cargo add ratin
 ```
 
 ```rust
@@ -171,21 +170,6 @@ loop {
 }
 ```
 
-## 📦 Installation
-
-### From crates.io
-
-```bash
-cargo add ratin
-```
-
-### From GitHub
-
-```toml
-[dependencies]
-ratin = { git = "https://github.com/Fkernel653/ratin" }
-```
-
 ## 🧩 Module Structure
 
 ```
@@ -200,10 +184,10 @@ ratin/
 
 ## 🔌 Requirements
 
-| Dependency | Version | Purpose |
-|------------|---------|---------|
-| [ratatui](https://github.com/ratatui-org/ratatui) | 0.24+ | TUI framework |
-| [crossterm](https://github.com/crossterm-rs/crossterm) | 0.27+ | Terminal events |
+| Dependency | Purpose |
+|------------|---------|
+| [ratatui](https://github.com/ratatui-org/ratatui) | TUI framework |
+| [crossterm](https://github.com/crossterm-rs/crossterm) | Terminal events |
 
 ## 🎯 Key Features
 
@@ -218,7 +202,7 @@ ratin/
 
 ## 📄 License
 
-MIT License — [See License](LICENSE)
+GPLv3 License — [See License](LICENSE)
 
 **Author:** [Fkernel653](https://github.com/Fkernel653)
 
