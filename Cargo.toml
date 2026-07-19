@@ -1,9 +1,9 @@
 [package]
 name = "ratin"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2024"
 description = "Custom input field component for Ratatui TUI applications"
-license = "GPL-3.0-only"
+license = "MIT"
 repository = "https://github.com/Fkernel653/ratin"
 documentation = "https://docs.rs/ratin"
 readme = "README.md"

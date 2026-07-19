@@ -3,7 +3,7 @@
 [![Rust](https://img.shields.io/badge/rust-1.70+-blue.svg)](https://rust-lang.org)
 [![Crates.io](https://img.shields.io/crates/v/ratin.svg)](https://crates.io/crates/ratin)
 [![Docs.rs](https://img.shields.io/docsrs/ratin)](https://docs.rs/ratin)
-[![License](https://img.shields.io/badge/license-GPLv3-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]()
 [![Rustfmt](https://img.shields.io/badge/code%20style-rustfmt-261230?logo=rust&logoColor=white)](https://github.com/rust-lang/rustfmt)
 
@@ -202,7 +202,7 @@ ratin/
 
 ## 📄 License
 
-GPLv3 License — [See License](LICENSE)
+MIT License — [See License](LICENSE)
 
 **Author:** [Fkernel653](https://github.com/Fkernel653)
 
