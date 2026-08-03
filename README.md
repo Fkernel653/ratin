@@ -1,11 +1,11 @@
 # ratin — Custom input field for Ratatui TUI
 
-[![Rust](https://img.shields.io/badge/rust-1.70+-blue.svg)](https://rust-lang.org)
-[![Crates.io](https://img.shields.io/crates/v/ratin.svg)](https://crates.io/crates/ratin)
-[![Docs.rs](https://img.shields.io/docsrs/ratin)](https://docs.rs/ratin)
-[![License](https://img.shields.io/badge/license-LGPL_v3-green.svg)](LICENSE.md)
-[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]()
-[![Rustfmt](https://img.shields.io/badge/code%20style-rustfmt-261230?logo=rust&logoColor=white)](https://github.com/rust-lang/rustfmt)
+[![Rust](https://img.shields.io/badge/Rust-1.70+-orange?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org)
+[![Crates.io](https://img.shields.io/crates/v/ratin?style=for-the-badge&logo=rust&logoColor=white&label=Crates.io&color=fc8d62)](https://crates.io/crates/ratin)
+[![Docs.rs](https://img.shields.io/docsrs/ratin?style=for-the-badge&logo=docs.rs&logoColor=white&label=Docs.rs&color=1e6f9f)](https://docs.rs/ratin)
+[![License](https://img.shields.io/badge/License-LGPLv3-green?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/lgpl-3.0.html)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-9cf?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Fkernel653/ratin)
+[![Rustfmt](https://img.shields.io/badge/Code%20Style-Rustfmt-261230?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/rust-lang/rustfmt)
 
 Modular input field component for Ratatui terminal applications with character validation, cursor management, and customizable styling.
 
