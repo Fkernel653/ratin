@@ -3,8 +3,8 @@
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![Crates.io](https://img.shields.io/crates/v/ratin?style=for-the-badge&logo=rust&logoColor=white&label=Crates.io&color=fc8d62)](https://crates.io/crates/ratin)
 [![Docs.rs](https://img.shields.io/docsrs/ratin?style=for-the-badge&logo=docs.rs&logoColor=white&label=Docs.rs&color=1e6f9f)](https://docs.rs/ratin)
-[![License](https://img.shields.io/badge/License-LGPLv3-green?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/lgpl-3.0.html)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-9cf?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Fkernel653/ratin)
+[![License](https://img.shields.io/badge/License-LGPLv3-00b96b?style=for-the-badge&logo=gnu&logoColor=white)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-9cf?style=for-the-badge&logo=windows&logoColor=white)](<>)
 [![Rustfmt](https://img.shields.io/badge/Code%20Style-Rustfmt-261230?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/rust-lang/rustfmt)
 
 Modular input field component for Ratatui terminal applications with character validation, cursor management, and customizable styling.
@@ -32,42 +32,42 @@ let mut input = InputField::new()
 
 ### Input Field
 
-| Feature | Description |
-|---------|-------------|
-| `new()` | Create new input field |
-| `with_placeholder()` | Set placeholder text |
-| `with_block()` | Customize block widget |
-| `with_max_length()` | Set maximum input length |
-| `with_validator()` | Set character validator |
-| `get_text()` | Get current input text |
-| `clear()` | Clear input field |
-| `set_processing()` | Set processing state (locks input) |
-| `set_focused()` | Set focus state |
-| `set_error()` | Set error message |
+| Feature              | Description                        |
+| -------------------- | ---------------------------------- |
+| `new()`              | Create new input field             |
+| `with_placeholder()` | Set placeholder text               |
+| `with_block()`       | Customize block widget             |
+| `with_max_length()`  | Set maximum input length           |
+| `with_validator()`   | Set character validator            |
+| `get_text()`         | Get current input text             |
+| `clear()`            | Clear input field                  |
+| `set_processing()`   | Set processing state (locks input) |
+| `set_focused()`      | Set focus state                    |
+| `set_error()`        | Set error message                  |
 
 ### Character Validator
 
-| Method | Description |
-|--------|-------------|
-| `new()` | Create new validator |
-| `with_allowed_chars()` | Set allowed characters (vector) |
-| `allow_letters()` | Allow only letters A-Z, a-z |
-| `allow_digits()` | Allow only digits 0-9 |
-| `allow_alphanumeric()` | Allow letters and digits |
-| `allow_url_chars()` | Allow URL-safe characters |
-| `allow_email_chars()` | Allow email-safe characters |
-| `with_case_sensitive()` | Toggle case sensitivity |
+| Method                  | Description                     |
+| ----------------------- | ------------------------------- |
+| `new()`                 | Create new validator            |
+| `with_allowed_chars()`  | Set allowed characters (vector) |
+| `allow_letters()`       | Allow only letters A-Z, a-z     |
+| `allow_digits()`        | Allow only digits 0-9           |
+| `allow_alphanumeric()`  | Allow letters and digits        |
+| `allow_url_chars()`     | Allow URL-safe characters       |
+| `allow_email_chars()`   | Allow email-safe characters     |
+| `with_case_sensitive()` | Toggle case sensitivity         |
 
 ### Styling
 
-| Method | Description |
-|--------|-------------|
-| `new()` | Create new style |
-| `with_focused()` | Set focused border color |
-| `with_error()` | Set error border color |
-| `with_processing()` | Set processing border color |
-| `with_text_color()` | Set text color |
-| `with_placeholder_color()` | Set placeholder color |
+| Method                     | Description                 |
+| -------------------------- | --------------------------- |
+| `new()`                    | Create new style            |
+| `with_focused()`           | Set focused border color    |
+| `with_error()`             | Set error border color      |
+| `with_processing()`        | Set processing border color |
+| `with_text_color()`        | Set text color              |
+| `with_placeholder_color()` | Set placeholder color       |
 
 ## 🔧 Usage Examples
 
@@ -163,7 +163,7 @@ loop {
             input.handle_key(key.code, key.modifiers);
         }
     }
-    
+
     terminal.draw(|f| {
         input.render(f, area);
     })?;
@@ -184,9 +184,9 @@ ratin/
 
 ## 🔌 Requirements
 
-| Dependency | Purpose |
-|------------|---------|
-| [ratatui](https://github.com/ratatui-org/ratatui) | TUI framework |
+| Dependency                                             | Purpose         |
+| ------------------------------------------------------ | --------------- |
+| [ratatui](https://github.com/ratatui-org/ratatui)      | TUI framework   |
 | [crossterm](https://github.com/crossterm-rs/crossterm) | Terminal events |
 
 ## 🎯 Key Features
@@ -202,7 +202,7 @@ ratin/
 
 ## 📄 License
 
-LGPLv3 License — [See License](LICENSE.md)
+LGPLv3 License — [See License](LICENSE)
 
 **Author:** [Fkernel653](https://github.com/Fkernel653)
 
