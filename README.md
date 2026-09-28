@@ -7,9 +7,31 @@
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-9cf?style=for-the-badge&logo=windows&logoColor=white)](<>)
 [![Rustfmt](https://img.shields.io/badge/Code%20Style-Rustfmt-261230?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/rust-lang/rustfmt)
 
-Modular input field component for Ratatui terminal applications with character validation, cursor management, and customizable styling.
+**ratin** is a modular input field component for [Ratatui](https://github.com/ratatui-org/ratatui) terminal applications with character validation, cursor management, and customizable styling.
 
-## 🚀 Quick Start
+---
+
+## Table of Contents
+
+- [Quick Start](#quick-start)
+- [Features](#features)
+  - [Input Field](#input-field)
+  - [Character Validator](#character-validator)
+  - [Styling](#styling)
+- [Usage Examples](#usage-examples)
+  - [Basic Input](#basic-input)
+  - [URL Input](#url-input)
+  - [Numeric Input](#numeric-input)
+  - [Custom Character Set](#custom-character-set)
+  - [Custom Styling](#custom-styling)
+  - [Event Handling](#event-handling)
+- [Module Structure](#module-structure)
+- [Key Features](#key-features)
+- [License](#license)
+
+---
+
+## Quick Start
 
 ```bash
 cargo add ratin
@@ -28,7 +50,9 @@ let mut input = InputField::new()
     .with_max_length(100);
 ```
 
-## 📋 Features
+---
+
+## Features
 
 ### Input Field
 
@@ -69,9 +93,12 @@ let mut input = InputField::new()
 | `with_text_color()`        | Set text color              |
 | `with_placeholder_color()` | Set placeholder color       |
 
-## 🔧 Usage Examples
+---
 
-### Basic Input
+## Usage Examples
+
+<details>
+<summary>Basic Input</summary>
 
 ```rust
 use ratin::InputField;
@@ -81,7 +108,10 @@ let mut input = InputField::new()
     .with_max_length(50);
 ```
 
-### URL Input
+</details>
+
+<details>
+<summary>URL Input</summary>
 
 ```rust
 use ratin::{InputField, CharValidator};
@@ -96,7 +126,10 @@ let mut input = InputField::new()
     .with_max_length(200);
 ```
 
-### Numeric Input
+</details>
+
+<details>
+<summary>Numeric Input</summary>
 
 ```rust
 use ratin::{InputField, CharValidator};
@@ -111,7 +144,10 @@ let mut input = InputField::new()
     .with_max_length(10);
 ```
 
-### Custom Character Set
+</details>
+
+<details>
+<summary>Custom Character Set</summary>
 
 ```rust
 use ratin::{InputField, CharValidator};
@@ -124,7 +160,10 @@ let mut input = InputField::new()
     .with_placeholder("Enter a/b/c or 1/2/3...");
 ```
 
-### Custom Styling
+</details>
+
+<details>
+<summary>Custom Styling</summary>
 
 ```rust
 use ratin::{InputField, InputStyle};
@@ -142,7 +181,10 @@ let mut input = InputField::new()
     .with_placeholder("Styled input...");
 ```
 
-### Event Handling
+</details>
+
+<details>
+<summary>Event Handling</summary>
 
 ```rust
 use crossterm::event::{KeyCode};
@@ -170,7 +212,11 @@ loop {
 }
 ```
 
-## 🧩 Module Structure
+</details>
+
+---
+
+## Module Structure
 
 ```
 ratin/
@@ -182,14 +228,9 @@ ratin/
     └── error.rs        # Error types
 ```
 
-## 🔌 Requirements
+---
 
-| Dependency                                             | Purpose         |
-| ------------------------------------------------------ | --------------- |
-| [ratatui](https://github.com/ratatui-org/ratatui)      | TUI framework   |
-| [crossterm](https://github.com/crossterm-rs/crossterm) | Terminal events |
-
-## 🎯 Key Features
+## Key Features
 
 - **Character Validation** — Restrict input to specific characters
 - **Cursor Management** — Full cursor control with arrow keys
@@ -200,9 +241,16 @@ ratin/
 - **Case Sensitivity** — Optional case-sensitive validation
 - **Clean API** — Builder pattern for configuration
 
-## 📄 License
+---
 
-LGPLv3 License — [See License](LICENSE)
+## License
+
+[LGPLv3 License](LICENSE) — Built with:
+
+| Library                                                | Purpose         |
+| ------------------------------------------------------ | --------------- |
+| [ratatui](https://github.com/ratatui-org/ratatui)      | TUI framework   |
+| [crossterm](https://github.com/crossterm-rs/crossterm) | Terminal events |
 
 **Author:** [Fkernel653](https://github.com/Fkernel653)
 
