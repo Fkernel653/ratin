@@ -27,7 +27,7 @@
   - [Event Handling](#event-handling)
 - [Module Structure](#module-structure)
 - [Key Features](#key-features)
-- [License](#license)
+- [License & Acknowledgments](#license--acknowledgments)
 
 ---
 
@@ -243,14 +243,14 @@ ratin/
 
 ---
 
-## License
+## License & Acknowledgments
 
 [LGPLv3 License](LICENSE) — Built with:
 
-| Library                                                | Purpose         |
-| ------------------------------------------------------ | --------------- |
-| [ratatui](https://github.com/ratatui-org/ratatui)      | TUI framework   |
-| [crossterm](https://github.com/crossterm-rs/crossterm) | Terminal events |
+| Library                                                | Purpose         | License                                                              |
+| ------------------------------------------------------ | --------------- | -------------------------------------------------------------------- |
+| [ratatui](https://github.com/ratatui-org/ratatui)      | TUI framework   | [MIT](https://github.com/ratatui/ratatui/blob/main/LICENSE)          |
+| [crossterm](https://github.com/crossterm-rs/crossterm) | Terminal events | [MIT](https://github.com/crossterm-rs/crossterm/blob/master/LICENSE) |
 
 **Author:** [Fkernel653](https://github.com/Fkernel653)
 
